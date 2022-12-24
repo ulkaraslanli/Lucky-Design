@@ -1,0 +1,101 @@
+.filter-bars-container {
+    margin-top: 30px;
+}
+
+.filter-bars{
+    background-color: #f8f8f8;
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+.filter-bars:focus {
+    background-color: #106853;
+    color: #FFFF;
+}
+
+.filter-myorders {
+    margin-top: 25px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    padding: 18px;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+} 
+
+.filter-myorders select {
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #106853;
+    width: 50%;
+    padding: 6px;
+    margin-left: 10px;
+}
+
+.filter-myorders-time {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.filter-myorders-status {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media (max-width: 991px) {
+    .filter-bars {
+        margin-bottom: 10px;
+    }
+
+    .filter-myorders select {
+      margin-bottom: 15px;
+    }
+
+    .filter-myorders-time {
+        justify-content: center;
+        margin-left: 7px;
+    }
+
+    .filter-myorders-status {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 420px) {
+    .filter-myorders select {
+        font-size: 10px;
+    }
+}
+
+.filtered-myorders thead {
+    background-color: #f8f8f8;
+}
+
+.filtered-myorders th {
+    border-right: 1px solid #dfdfdf;
+    font-weight: 400;
+}
+
+.status-info {
+    background-color: #106853;
+    border-radius: 15px;
+    color: #FFFF;
+    padding: 5px 8px;
+}
+
+.tekrar-sifaris {
+    background-color: transparent;
+    border-style: none;
+    border: 2px solid #dfdfdf;
+    color: gray;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 7px;
+}
+
+.tekrar-sifaris:hover {
+    background-color: #106853;
+    color: #FFF;
+    border-color: #106853;
+}

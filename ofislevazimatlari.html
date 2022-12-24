@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">   
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />         
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="style.css" rel="stylesheet">
+        <link href="ofislevazimatlari.css" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>Lucky Office Support</title>
+    </head>
+    <body>     
+
+        <div class="nav-bar">
+            <div class="container">
+                <div class="header-first d-flex justify-content-end">
+                    <ul>
+                        <li><a href="daxilol.html">Daxil ol</a></li>
+                        <li><a href="qeydiyyat.html">Qeydiyyat</a></li>
+                    </ul>
+                </div>
+                <div class="header-second d-flex justify-content-between">
+                    <div class="nav-logo col-12 col-lg-3">
+                        <a href="index.html"><img src="images/image/logo/logo-header.svg" alt="Logo"></a>
+                    </div>
+                    <div class="nav-search col-lg-6 d-md-none d-lg-flex align-items-center">
+                        <form action="searching">
+                            <div class="d-flex justify-content-center align-items-center position-relative">
+                                <input type="search" name="search-to-find" id="search-to-find" placeholder="Axtar">
+                                <span class="search-icon"><i class="fa fa-search" aria-hidden="true"></i></span>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="nav-icon col-lg-3 d-md-none d-lg-flex justify-content-end align-items-center">
+                        <ul class="d-flex justify-content-end">
+                            <li><a class="counter" href="sebet.html"><img src="images/image/general/cart.svg" alt="Cart"><span class="badge">1</span></a></li>
+                            <li><a class="counter" href="isteksiyahisi.html"><img src="images/image/general/heart.svg" alt="Heart"><span class="badge">3</span></a></li>
+                        </ul>
+                    </div>           
+                </div>        
+                <div class="header-third d-flex">
+                    <div class="dropdown col-lg-4">
+                        <div class="dropbtn col-lg-4"><img src="images/image/icon/category.svg" alt="">Kateqoriyalar</div>
+                        <div class="category dropdown-content">
+                            <ul class="category-list">
+                                <li><a href="ofislevazimatlari.html"><img src="images/CatImgs/1617785889ofis-levezimatlari.svg" alt="Ofis levazimatlari">Ofis ləvazimatları</a></li>
+                                <li><a href="#"><img src="images/CatImgs/1617786311qida.png" alt="Qida ve ickiler">Qida və İçkilər</a></li>
+                                <li><a href="#"><img src="images/CatImgs/1617786118xirdavat.png" alt="Teserrufat mallari"> Təsərrüfat malları</a></li>
+                                <li><a href="#"><img src="images/CatImgs/1617786259computer-accessories-512.webp" alt="Elektron avadanliqlar"> Elektron avadanlıq</a></li>
+                                <li><a href="#"><img src="images/CatImgs/16468163995165161.png" alt="Dibcek gulleri">Dibçək gülləri</a></li>
+                                <li><a href="#"><img src="images/CatImgs/1618572764fbdfbdf.jpg" alt="Hediyyelik">Hədiyyəlik</a></li>
+                                <li><a href="#"><img src="images/CatImgs/162151268599956.png" alt="Coffee shop">Coffee shop</a></li>
+                            </ul>   
+                       </div>
+                    </div>
+                    <div class="nav-menu d-flex col-lg-8">
+                        <div class="nav-item"><a href="haqqimizda.html">Haqqımızda</a></div>
+                        <div class="nav-item"><a href="yenimehsul.html">Yeni</a></div>
+                        <div class="nav-item"><a href="#">Endirimlər</a></div>
+                        <div class="nav-item"><a href="#">Ən çox satılanlar</a></div>
+                        <div class="nav-item-dropdown dropdown"><button>Şərtlər<img src="images/image/icon/arrow-right.svg" alt="Right arrow"></button>
+                        <div class="dropdown-content">
+                            <a href="#">Çatdırılma</a>
+                            <a href="#">Geri qaytarılma və dəyişdirmə</a>
+                        </div>
+                    </div>
+                        <div class="nav-item"><a href="elaqe.html">Əlaqə</a></div>
+                    </div>
+                </div>
+                
+                <div class="mobile-container"> 
+                    <div class="topnav">
+                        <div class="mobile-nav-icons d-flex">
+                            <div>
+                                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                    <div class="mobile-nav-toggle">
+                                        <div class="bar"></div>
+                                        <div class="bar"></div>
+                                        <div class="bar"></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="mobile-nav-icon">
+                                <ul class="d-flex">
+                                    <li><a class="counter" href="sebet.html"><img src="images/image/general/cart.svg" alt=""><span class="badge">1</span></a></li>
+                                    <li><a class="counter" href="isteksiyahisi.html"><img src="images/image/general/heart.svg" alt=""><span class="badge">3</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="myLinks">
+                            <hr style="color: white;">
+                            <div class="mobile-search">
+                                <form action="">
+                                    <div class="d-flex justify-content-center align-items-center position-relative">
+                                        <input type="search" name="" id="" placeholder="Axtar">
+                                        <span class="mobile-search-icon"><i class="fa fa-search"></i></span>
+                                    </div>
+                                </form>
+                            </div>
+                            <ul>
+                                <li><a href="haqqimizda.html">Haqqımızda</a></li>
+                                <li><a href="yenimehsul.html">Yeni</a></li>
+                                <li><a href="#">Endirimlər</a></li>
+                                <li><a href="#">Ən çox satılanlar</a></li>
+                                <li><a href="#">Çatdırılma</a></li>
+                                <li><a href="#">Geri qaytarılma və dəyişdirmə</a></li>
+                                <li><a href="elaqe.html">Əlaqə</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+
+        <div class="mobile-dropdown">
+            <button onclick="myDropdownFunction()" class="mobile-dropbtn"><img src="images/image/icon/category.svg" alt="">Kateqoriyalar</button>
+            <div id="myDropdown" class="mobile-dropdown-content mobile-category">
+                <ul class="mobile-category-list">
+                    <li><a href="ofislevazimatlari.html"><img src="images/CatImgs/1617785889ofis-levezimatlari.svg" alt="Ofis levazimatlari">Ofis ləvazimatları</a></li>
+                    <li><a href="#"><img src="images/CatImgs/1617786311qida.png" alt="Qida ve ickiler">Qida və İçkilər</a></li>
+                    <li><a href="#"><img src="images/CatImgs/1617786118xirdavat.png" alt="Teserrufat mallari"> Təsərrüfat malları</a></li>
+                    <li><a href="#"><img src="images/CatImgs/1617786259computer-accessories-512.webp" alt="Elektron avadanliqlar"> Elektron avadanlıq</a></li>
+                    <li><a href="#"><img src="images/CatImgs/16468163995165161.png" alt="Dibcek gulleri">Dibçək gülləri</a></li>
+                    <li><a href="#"><img src="images/CatImgs/1618572764fbdfbdf.jpg" alt="Hediyyelik">Hədiyyəlik</a></li>
+                    <li><a href="#"><img src="images/CatImgs/162151268599956.png" alt="Coffee shop">Coffee shop</a></li>
+                </ul>   
+            </div>
+        </div>
+
+        <div id="category">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="title" style="padding-bottom: 20px;"><h2>Ofis ləvazimatları</h2></div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="category-sidebar">
+                            <div>
+                                <div class="inner-heading-small">
+                                    <h2>Qiymət filteri</h2>
+                                </div>
+                                <div class="filter-input">
+                                    <div class="range-input">
+                                        <input value="0" min="0" max="1800" step="1" type="range" name="minrange"/>
+                                        <input value="500" min="0" max="1800" step="1" type="range" name="maxrange"/>
+                                    </div>
+                                    <div class="num-manat">
+                                        <div class="min-num">
+                                            <input type="number" value="0" min="0" max="1800"/>
+                                            <img src="images/image/icon/manat.svg" alt="manat"/>
+                                        </div>
+                                        <div class="max-num">
+                                            <input type="number" value="500" min="0" max="1800"/> 
+                                            <img src="images/image/icon/manat.svg" alt="manat"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div>
+                                <div class="inner-heading-small">
+                                    <h2>Alt kateqoriya</h2>
+                                </div>
+                                <div class="sub-category-container">
+                                        <div class="sub-category">
+                                            <input class="form-check-input" type="checkbox" name="" value="78" />
+                                            <h3>Ağardıcı</h3>
+                                        </div>
+                                        <div class="sub-category">
+                                            <input class="form-check-input" type="checkbox" name="" value="48" />
+                                            <h3>Bıçaq</h3>
+                                        </div>
+                                        <div class="sub-category">
+                                            <input class="form-check-input" type="checkbox" name="" value="77" />
+                                            <h3>Bloknot</h3>
+                                        </div>
+                                        <div class="sub-category">
+                                            <input class="form-check-input" type="checkbox" name="" value="117" />
+                                            <h3>Çek və qaimə</h3>
+                                        </div>
+                                        <div class="sub-category">
+                                            <input class="form-check-input" type="checkbox" name="" value="121" />
+                                            <h3>Çərçivə</h3>
+                                        </div>
+                                        <div class="sub-category">
+                                            <input class="form-check-input" type="checkbox" name="" value="60" />
+                                            <h3>Delgəc</h3>
+                                        </div>
+                                        <div class="sub-category">
+                                            <input class="form-check-input" type="checkbox" name="" value="127" />
+                                            <h3>Dəftər</h3>
+                                        </div>
+                                        <div class="sub-category">
+                                            <input class="form-check-input" type="checkbox" name="" value="65" />
+                                            <h3>Fayl</h3>
+                                        </div>
+                                        <div class="sub-category">
+                                            <input class="form-check-input" type="checkbox" name="" value="69" />
+                                            <h3>Kağız</h3>
+                                        </div>
+                                        <div class="sub-category">
+                                            <input class="form-check-input" type="checkbox" name="" value="70" />
+                                            <h3>Kalkulyator</h3>
+                                        </div>
+                                        <div class="sub-category">
+                                            <input class="form-check-input" type="checkbox" name="" value="107" />
+                                            <h3>Karandaş</h3>
+                                        </div>
+                                        <div class="sub-category">
+                                            <input class="form-check-input" type="checkbox" name="" value="75" />
+                                            <h3>Karandaş yonan</h3>
+                                        </div>
+                                        <div class="sub-category">
+                                            <input class="form-check-input" type="checkbox" name="" value="66" />
+                                            <h3>Marker</h3>
+                                        </div>
+                                        <div class="sub-category">
+                                            <input class="form-check-input" type="checkbox" name="" value="80" />
+                                            <h3>Masaüstü dəstləri</h3>
+                                        </div>
+                                        <div class="sub-category">
+                                            <input class="form-check-input" type="checkbox" name="" value="73" />
+                                            <h3>Pozan</h3>
+                                        </div>
+                                        <div class="sub-category">
+                                            <input class="form-check-input" type="checkbox" name="" value="67" />
+                                            <h3>Qələm</h3>
+                                        </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div>
+                                <div class="new-category">
+                                    <input class="form-check-input" name="" type="checkbox" />
+                                    <h3>Yeni</h3>
+                                </div>
+                                <div class="new-category">
+                                    <input class="form-check-input" name="" type="checkbox" />
+                                    <h3>Tövsiyyə edilir</h3>
+                                </div>
+                            </div>
+                            <button id="checkbutton" class="buttons green">Filtrlə</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <div class="category-filter-container">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <div class="category-filter-number">
+                                        <span>Saya görə: </span>
+                                        <select name="num">
+                                            <option value="12">12</option>
+                                            <option value="18">18</option>
+                                            <option value="24">24</option>
+                                            <option value="30">30</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="category-filter-price">
+                                        <span>Qiymətə görə: </span>
+                                        <select name="price">
+                                            <option selected disabled>Seç</option>
+                                            <option value="0">Ucuzdan Bahaya</option>
+                                            <option value="1">Bahadan Ucuza</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                                <div class="office-element">
+                                        <div class="office-element-header">
+                                            <div class="like-outline">
+                                                <img src="images/image/icon/heart-outline.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="img-container">
+                                            <a href="pozan.html">
+                                                <img src="images/Products/1616154785bx80-3802_2.Wz70i.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <p class="office-element-name">Pozan "Eraser" BX80-3802</p>
+                                        <span class="office-element-price">
+                                            0.10 Azn
+                                        </span>
+                                        <button class="buttons">Səbətə at</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                                <div class="office-element">
+                                    <div class="office-element-header">
+                                        <div class="like-outline">
+                                            <img src="images/image/icon/heart-outline.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="img-container">
+                                        <a href="pozan.html">
+                                            <img src="images/Products/1617868605ol-2280.zWM3j.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <p class="office-element-name">Karandaş "Ozokul" OL-2280</p>
+                                    <span class="office-element-price">
+                                        0.11 Azn
+                                    </span>
+                                    <button class="buttons">Səbətə at</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                                <div class="office-element">
+                                    <div class="office-element-header">
+                                        <div class="like-outline">
+                                            <img src="images/image/icon/heart-outline.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="img-container">
+                                        <a href="#">
+                                            <img src="images/Products/1634130433a011626_1_qelem_a_1775_06mm_mavi-1000x1000.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <p class="office-element-name">Qələm 0.7 mm "Assis" A-1775</p>
+                                    <span class="office-element-price">
+                                        0.12 Azn
+                                    </span>
+                                    <button class="buttons">Səbətə at</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                                <div class="office-element">
+                                    <div class="office-element-header">
+                                        <div class="like-outline">
+                                            <img src="images/image/icon/heart-outline.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="img-container">
+                                        <a href="#">
+                                            <img src="images/Products/1616154772ol-6060_2.wltS7.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <p class="office-element-name">Pozan "Ozokul" OL-6060</p>
+                                    <span class="office-element-price">
+                                        0.15 Azn
+                                    </span>
+                                    <button class="buttons">Səbətə at</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                                <div class="office-element">
+                                    <div class="office-element-header">
+                                        <div class="like-outline">
+                                            <img src="images/image/icon/heart-outline.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="img-container">
+                                        <a href="#">
+                                            <img src="images/Products/16474187233609721_4_karandash_chernografitovyj_maped_black_peps_hb_trekhgrannyj_s_lastikom_zatochen.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <p class="office-element-name">Karandaş "Maped" M-8218</p>
+                                    <span class="office-element-price">
+                                        0.20 Azn
+                                    </span>
+                                    <button class="buttons">Səbətə at</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                                <div class="office-element">
+                                    <div class="office-element-header">
+                                        <div class="like-outline">
+                                            <img src="images/image/icon/heart-outline.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="img-container">
+                                        <a href="#">
+                                            <img src="images/Products/163609850781wkKQ31iPS._AC_SL1500_2048x2048.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <p class="office-element-name">Rəngli qələm 1.0mm "Cello" 1565</p>
+                                    <span class="office-element-price">
+                                        0.20 Azn
+                                        <s>0.25 Azn</s>
+                                    </span>
+                                    <button class="buttons">Səbətə at</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                                <div class="office-element">
+                                        <div class="office-element-header">
+                                            <div class="like-outline">
+                                                <img src="images/image/icon/heart-outline.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="img-container">
+                                            <a href="#pozan.html">
+                                                <img src="images/Products/1616154785bx80-3802_2.Wz70i.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <p class="office-element-name">Pozan "Eraser" BX80-3802</p>
+                                        <span class="office-element-price">
+                                            0.10 Azn
+                                        </span>
+                                        <button class="buttons">Səbətə at</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                                <div class="office-element">
+                                    <div class="office-element-header">
+                                        <div class="like-outline">
+                                            <img src="images/image/icon/heart-outline.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="img-container">
+                                        <a href="#">
+                                            <img src="images/Products/1617868605ol-2280.zWM3j.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <p class="office-element-name">Karandaş "Ozokul" OL-2280</p>
+                                    <span class="office-element-price">
+                                        0.11 Azn
+                                    </span>
+                                    <button class="buttons">Səbətə at</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                                <div class="office-element">
+                                    <div class="office-element-header">
+                                        <div class="like-outline">
+                                            <img src="images/image/icon/heart-outline.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="img-container">
+                                        <a href="#">
+                                            <img src="images/Products/1634130433a011626_1_qelem_a_1775_06mm_mavi-1000x1000.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <p class="office-element-name">Qələm 0.7 mm "Assis" A-1775</p>
+                                    <span class="office-element-price">
+                                        0.12 Azn
+                                    </span>
+                                    <button class="buttons">Səbətə at</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                                <div class="office-element">
+                                    <div class="office-element-header">
+                                        <div class="like-outline">
+                                            <img src="images/image/icon/heart-outline.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="img-container">
+                                        <a href="#">
+                                            <img src="images/Products/163609850781wkKQ31iPS._AC_SL1500_2048x2048.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <p class="office-element-name">Rəngli qələm 1.0mm "Cello" 1565</p>
+                                    <span class="office-element-price">
+                                        0.20 Azn
+                                        <s>0.25 Azn</s>
+                                    </span>
+                                    <button class="buttons">Səbətə at</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                                <div class="office-element">
+                                    <div class="office-element-header">
+                                        <div class="like-outline">
+                                            <img src="images/image/icon/heart-outline.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="img-container">
+                                        <a href="#">
+                                            <img src="images/Products/16474187233609721_4_karandash_chernografitovyj_maped_black_peps_hb_trekhgrannyj_s_lastikom_zatochen.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <p class="office-element-name">Karandaş "Maped" M-8218</p>
+                                    <span class="office-element-price">
+                                        0.20 Azn
+                                    </span>
+                                    <button class="buttons">Səbətə at</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                                <div class="office-element">
+                                    <div class="office-element-header">
+                                        <div class="like-outline">
+                                            <img src="images/image/icon/heart-outline.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="img-container">
+                                        <a href="#">
+                                            <img src="images/Products/16474187233609721_4_karandash_chernografitovyj_maped_black_peps_hb_trekhgrannyj_s_lastikom_zatochen.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <p class="office-element-name">Karandaş "Maped" M-8218</p>
+                                    <span class="office-element-price">
+                                        0.20 Azn
+                                    </span>
+                                    <button class="buttons">Səbətə at</button>
+                                </div>
+                            </div>
+                        </div>  
+                        <div>
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" rel="Previous" aria-label="Previous">&lsaquo;</a>
+                                </li>
+                                <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                <li class="page-item"><a class="page-link" href="#">7</a></li>
+                                <li class="page-item"><a class="page-link" href="#">8</a></li>
+                                <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
+                                <li class="page-item"><a class="page-link" href="#">18</a></li>
+                                <li class="page-item"><a class="page-link" href="#">19</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" rel="Next" aria-label="Next">&rsaquo;</a>
+                                </li>
+                            </ul>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer style="margin-top: 0;">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-item lg-3 md-12">
+                        <div class="footer-logo"><a href="index.html"><img src="images/image/logo/logo-footer.svg" alt=""></a><br>
+                            <div class="footer-social-media">
+                                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-item lg-3 md-12">
+                        <ul>
+                            <u style="color: #fc8410; font-weight: 600; font-size: 20px;">Kateqoriyalar</u>
+                            <li><a href="ofislevazimatlari.html">Ofis ləvazimatları</a></li>
+                            <li><a href="#">Qida və İçkilər</a></li>
+                            <li><a href="#">Təsərrüfat malları</a></li>
+                            <li><a href="#">Elektron avadanlıq</a></li>
+                            <li><a href="#">Dibçək gülləri</a></li>
+                            <li><a href="#">Hədiyyəlik</a></li>
+                            <li><a href="#">Coffee shop</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item lg-3 md-12">
+                        <ul>
+                            <u style="color:#fc8410; font-weight: 600; font-size: 20px;">Menyular</u>
+                            <li><a href="haqqimizda.html">Haqqımızda</a></li>
+                            <li><a href="#">Çatdırılma</a></li>
+                            <li><a href="#">Geri qaytarılma və dəyişdirmə</a></li>
+                            <li><a href="elaqe.html">Əlaqə</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item lg-3 md-12">
+                        <ul>
+                            <u style="color: #fc8410; font-weight: 600; font-size: 20px;">Əlaqə</u>
+                            <li>Tel.: (994) 99 832 07 77</li>
+                            <li>E-mail: info@los.az</li>
+                            <li>Ünvan: Ziya Bünyadov pr, 1965.</li>
+                            <li>Çinar Park Biznes Mərkəzi</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-bottom">
+                    <div>© Bütün hüquqlar qorunur - <a style="color: #fc8410; text-decoration: none;" href="#">Lucky Office Support</a></div>
+                    <div>Powered by <a style="color: #fc8410; text-decoration: none;">Proton.az</a></div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    </body>
+</html>
+
